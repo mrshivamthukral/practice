@@ -6,6 +6,8 @@ import java.io.PrintWriter;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
+
+// Registration Form Servlet Using Annotation
 @WebServlet(name="register.com",urlPatterns={"/register"})
 public class registerServlet extends HttpServlet{
 	public void service(HttpServletRequest req,HttpServletResponse res) throws IOException {
