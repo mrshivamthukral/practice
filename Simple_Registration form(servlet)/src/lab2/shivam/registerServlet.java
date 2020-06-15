@@ -21,7 +21,7 @@ public class registerServlet extends HttpServlet{
 		String re=req.getParameter("remark");
 		String msg="your data has been stored";
 		String ip=req.getRemoteAddr();
-		res.setContentType("text/htm");
+		res.setContentType("text/html");
 		
 		PrintWriter out=res.getWriter();
 		out.println("<h1>MyTrail Store</h1>");
