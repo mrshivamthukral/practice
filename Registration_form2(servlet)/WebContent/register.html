@@ -1,0 +1,79 @@
+
+<html>
+<head>
+    <style>
+        
+       .box{
+           position: absolute;
+            left: 50%;
+           top:50%; 
+             transform: translate(-50%,-50%);
+           background: #837E7C;
+           opacity: .8;
+           box-sizing: border-box;
+           box-shadow: 2px 4px 18px black;
+           padding: 20px;
+           border-radius: 15px;
+       }
+       .boxing{
+    	   
+       }
+   
+    </style>
+    </head>    
+<body>
+
+<div align="center" class="box">
+<h1>Welcome To MyTrial Strore</h1>
+<h2>Registration Form</h2>
+<form action="register" method="post">
+<table>
+<tr>
+<td>name
+<input type="text" name="fname"/></td>
+</tr>
+<tr>
+<td >email<input type="text" name="email"/></td>
+</tr>
+<tr>
+<td >phone<input type="text" name="phone"/></td>
+</tr>
+<tr>
+<td >gender<input type="radio" name="gender" value="male"/>Male
+<input type="radio" name="gender" value="female"/>Female
+</td>
+</tr>
+<tr>
+<td>course
+
+<input type="checkbox" name="course" value="module1"/>module1
+<input type="checkbox" name="course" value="module2"/>module2
+<input type="checkbox" name="course" value="module3"/>module3
+<input type="checkbox" name="course" value="module4"/>module4
+</td>
+<tr>
+<td >timing
+<select name="timing">
+<option value="select">select</option>
+<option value="7am">7am</option>
+<option value="7am">8am</option>
+<option value="7am">9am</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>remark
+<textarea name="remark"></textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" >
+<input type="submit" name="submit" value="enquiry"/>
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+</body>
+</html>
