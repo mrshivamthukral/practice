@@ -1,0 +1,9 @@
+<web-app>
+  <welcome-file-list>
+  <welcome-file>Index.html</welcome-file>
+  </welcome-file-list>
+  <context-param>
+  <param-name>website</param-name>
+  <param-value>www.servletscope.com</param-value>
+  </context-param>
+</web-app>
